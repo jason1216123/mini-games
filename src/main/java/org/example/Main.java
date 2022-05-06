@@ -15,7 +15,6 @@ public class Main {
 
     public void DisplayMainMenu(){
         System.out.println("Main Menu:");
-
     }
 
 }

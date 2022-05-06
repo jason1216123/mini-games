@@ -29,12 +29,12 @@ public class GuessNumber {
                 do{
                         System.out.print("Guess Your number here: ");
                         String input = sc.next();
+                        System.out.println("Your Input [" + input + "]");
 
                         try{
                                 num = Integer.parseInt(input);
                         } catch (NumberFormatException e){
                                 System.out.println("Invalidate Input, please input your words as Number!!" );
-                                System.out.println("Your Input [" + input + "]");
                         }
 
                         if(num != answer){
